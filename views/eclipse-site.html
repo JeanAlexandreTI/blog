@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css" type="text/css">
+
+</head>
+
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        background-color: rgba(226, 224, 224, 0.938);
+        color: rgb(0, 0, 0);
+    }
+
+    header {
+        text-align: center;
+        background-color: rgba(29, 60, 95, 0.575);
+        padding: 30px;
+    }
+
+    header h1 {
+        font-size: 50px;
+        color: rgb(235, 234, 234);
+
+    }
+
+    nav ul {
+        list-style: none;
+        background-color: rgb(50, 60, 95);
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        padding: 16px;
+        display: block;
+    }
+
+    nav li {
+        float: left;
+    }
+
+    nav a:hover {
+        background-color: white;
+        color: rgb(147, 128, 228);
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .row {
+        padding: 0 20px;
+        display: table;
+
+    }
+
+    section {
+        float: left;
+        width: 75%;
+    }
+
+    aside {
+        float: left;
+        width: 25%;
+        padding-left: 20px;
+        box-sizing: border-box;
+    }
+
+    .card {
+        background-color: rgb(209, 203, 203);
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    footer {
+        padding: 20px;
+        background-color: rgba(29, 60, 95, 0.575);
+        color: white;
+        margin-top: 20px;
+        display: table;
+        width: 97%;
+    }
+
+    footer dl,
+    footer p {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    footer dt {
+        font-weight: bold;
+    }
+
+    footer dd {
+        margin-left: 0;
+    }
+
+    footer p {
+        text-align: right;
+        font-weight: bold;
+        font-size: 25px;
+    }
+
+    @media screen and (max-width: 768px) {
+
+        section,
+        aside {
+            width: 100%;
+            padding: 0%;
+        }
+
+        footer p {
+            display: none;
+        }
+    }
+
+    #postagem {
+        text-align: justify;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    #lista-tópicos {
+        list-style: none;
+        padding: 0;
+    }
+
+    #lista-tópicos {
+        text-decoration: none;
+        color: black;
+    }
+
+    #lista-tópicos li {
+        border-bottom: 1px solid #ddd;
+        padding: 8px 16px;
+
+    }
+
+    #link-topo {
+        text-decoration: none;
+        color: white;
+        background-color: rgb(182, 3, 107);
+        padding: 10px;
+        position: fixed;
+        right: 10px;
+        bottom: 10px;
+        box-shadow: 3px 3px 10px #333;
+
+    }
+    
+
+</style>
+
+<body>
+    <header>
+        <h1>Eclipse Lunar</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../sobre.html">Sobre</a></li>
+        </ul>
+    </nav>
+
+    <div class="row">
+        <section id="postagem">
+            <article class="card">
+                <h2 id="titulo01">O que é um eclipse lunar?</h2>
+                <p>
+                De acordo com a Wikipedia, o Eclipse lunar é um evento astronômico em que a Lua é
+                total ou parcialmente encoberta pela sombra da Terra, muitas vezes visível a olho nu.
+                Esse fenômeno ocorre sempre que o Sol, a Terra e a Lua estão em proximidade ou
+                alinhamento perfeito, com a Terra situada entre esses dois corpos celestes.    
+
+                <h3 id="titulo02">Em quais regiões foi possível observar o eclipse lunar?</h3>
+
+                Segundo informações do portal "Time and Date", o fenômeno ocorrido em 28/10/2023 pôde ser 
+                observado na Europa, Ásia, Austrália, América do Norte, em amplas regiões da América do 
+                Sul, no Pacífico, no Atlântico, no Oceano Índico, no Ártico e na Antártica.
+                </p>
+
+        </section>
+        <aside>
+            <article class="card">
+                <h3>Tópicos</h3>
+                <ul id="lista-tópicos">
+                    <li>
+                        <a href="#titulo01">&#187;O que é um eclipse lunar?</a>
+                    </li>
+                    <li>
+                        <a href="#titulo02">&#187;Em quais regiões é possível observar o eclipse lunar? </a>
+                    </li>
+              
+                </ul>
+            </article>
+
+        </aside>
+        <a id="link-topo" href="#">&#9650;</a>
+    </div>
+    <footer>
+        <dl>
+            <dt>Insta</dt>
+            <dd>@jean_aco</dd>
+        </dl>
+
+        <p>Projeto NASA</p>
+    </footer>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css" type="text/css">
+
+</head>
+
+<style>
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: rgba(226, 224, 224, 0.938);
+    color: rgb(0, 0, 0);
+  }
+
+  header {
+    text-align: center;
+    background-color: rgba(29, 60, 95, 0.575);
+    padding: 30px;
+  }
+
+  header h1 {
+    font-size: 50px;
+    color: rgb(235, 234, 234);
+
+  }
+
+  nav ul {
+    list-style: none;
+    background-color: rgb(50, 60, 95);
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 16px;
+    display: block;
+  }
+
+  nav li {
+    float: left;
+  }
+
+  nav a:hover {
+    background-color: white;
+    color: rgb(147, 128, 228);
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .row {
+    padding: 0 20px;
+    display: table;
+
+  }
+
+  section {
+    float: left;
+    width: 75%;
+  }
+
+  aside {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+    box-sizing: border-box;
+  }
+
+  .card {
+    background-color: rgb(209, 203, 203);
+    padding: 20px;
+    margin-top: 20px;
+    text-align: justify;
+  }
+
+  footer {
+    padding: 20px;
+    background-color: rgba(29, 60, 95, 0.575);
+    color: white;
+    margin-top: 20px;
+    display: table;
+    width: 97%;
+  }
+
+  footer dl,
+  footer p {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  footer dt {
+    font-weight: bold;
+  }
+
+  footer dd {
+    margin-left: 0;
+  }
+
+  footer p {
+    text-align: right;
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  @media screen and (max-width: 768px) {
+
+    section,
+    aside {
+      width: 100%;
+      padding: 0%;
+    }
+
+    footer p {
+      display: none;
+    }
+
+  }
+</style>
+
+<body>
+  <header>
+    <h1>Sobre</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#">Sobre</a></li>
+    </ul>
+  </nav>
+
+  <div class="row">
+    <section>
+      <article class="card">
+        <h2>Quem nós somos?</h2>
+
+        <p>
+          Este site foi criado com o simples intuito de aprimorar e desenvolver conhecimentos
+          sobre o mundo da programação. Aqui você ira ver explicações sobre o HTML, JAVA e o CSS, que
+          foram as linguagens usadas na criação.Além de notícias sobre a NASA (que era a ideia principal do site).
+        </p>
+
+        <P>
+          A minha vontade de aprender um pouco mais sobre a linguagem das maquinas começou no início do ensino medio,
+          onde um dos meus professores pediu aos alunos para criar um jogo utilizando o Scrath, que é um site
+          onde você pode aprender lógicas de programação. Ao tentar fazer um jogo simples de quiz,comecei me 
+          interessar cada vez mais sobre a linguagem de programação. No mesmo ano, dei início a um
+          curso de lógica de programação pela plataforma alura, desde então tenho tentado entrar cada vez mais no mundo
+          da tecnologia.
+        </P>
+
+      </article>
+
+    </section>
+    <aside>
+      <article class="card">
+        <h3>História da NASA</h3>
+
+        <a href="NASA/informações.html">
+          <img src="imagens/NASA-Logo.html"
+           alt="imagem da NASA">
+        </a>
+
+        <p>Aqui você pode saber um pouco mais sobre o que a NASA faz.
+        </p>
+      </article>
+      <article class="card">
+
+        <h3>Eclipse</h3>
+        
+        <a href="eclipse/eclipse-site.html">
+          <img src="imagens/eclipse.html"
+           alt="imagem ilustrativa sobre o eclipse ocorrido em um manga">
+        </a>
+
+        <p>Eclipse solar anular: O que é?
+        </p>
+      </article>
+    </aside>
+  </div>
+  <footer>
+    <dl>
+      <dt>Insta</dt>
+      <dd>@jean_aco</dd>
+    </dl>
+
+    <p>Projeto NASA</p>
+  </footer>
+  </section>
+</body>
+
+</html>

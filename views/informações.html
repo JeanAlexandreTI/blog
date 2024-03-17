@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css" type="text/css">
+
+</head>
+
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        background-color: rgba(226, 224, 224, 0.938);
+        color: rgb(0, 0, 0);
+    }
+
+    header {
+        text-align: center;
+        background-color: rgba(29, 60, 95, 0.575);
+        padding: 30px;
+    }
+
+    header h1 {
+        font-size: 50px;
+        color: rgb(235, 234, 234);
+
+    }
+
+    nav ul {
+        list-style: none;
+        background-color: rgb(50, 60, 95);
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        padding: 16px;
+        display: block;
+    }
+
+    nav li {
+        float: left;
+    }
+
+    nav a:hover {
+        background-color: white;
+        color: rgb(147, 128, 228);
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .row {
+        padding: 0 20px;
+        display: table;
+
+    }
+
+    section {
+        float: left;
+        width: 75%;
+    }
+
+    aside {
+        float: left;
+        width: 25%;
+        padding-left: 20px;
+        box-sizing: border-box;
+    }
+
+    .card {
+        background-color: rgb(209, 203, 203);
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    footer {
+        padding: 20px;
+        background-color: rgba(29, 60, 95, 0.575);
+        color: white;
+        margin-top: 20px;
+        display: table;
+        width: 97%;
+    }
+
+    footer dl,
+    footer p {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    footer dt {
+        font-weight: bold;
+    }
+
+    footer dd {
+        margin-left: 0;
+    }
+
+    footer p {
+        text-align: right;
+        font-weight: bold;
+        font-size: 25px;
+    }
+
+    @media screen and (max-width: 768px) {
+
+        section,
+        aside {
+            width: 100%;
+            padding: 0%;
+        }
+
+        footer p {
+            display: none;
+        }
+    }
+
+    #postagem {
+        text-align: justify;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    #lista-tópicos {
+        list-style: none;
+        padding: 0;
+    }
+
+    #lista-tópicos {
+        text-decoration: none;
+        color: black;
+    }
+
+    #lista-tópicos li {
+        border-bottom: 1px solid #ddd;
+        padding: 8px 16px;
+
+    }
+
+    #link-topo {
+        text-decoration: none;
+        color: white;
+        background-color: rgb(182, 3, 107);
+        padding: 10px;
+        position: fixed;
+        right: 10px;
+        bottom: 10px;
+        box-shadow: 3px 3px 10px #333;
+
+    }
+    
+
+</style>
+
+<body>
+    <header>
+        <h1>História da NASA</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../sobre.html">Sobre</a></li>
+        </ul>
+    </nav>
+
+    <div class="row">
+        <section id="postagem">
+            <article class="card">
+                <h2 id="titulo01">Como surgiu</h2>
+                <p>
+                    Fundada durante a Gurra Fria, com o objetivo de conquistar a corrida espacial
+                    contra a URSS, a NASA foi criada nos Estados Unidos em 1958. Seu objetivo é
+                    pesquisar e desenvolver novas tecnológias para explorar o universo, tentando
+                    entender como tudo surgiu.
+
+                <h3 id="titulo02">Missões</h3>
+                A NASA desenvolveu diversar missões, desde como o espaço afeta o corpo dos seres humanos
+                até a descoberta de novos planetas com possível existência de vida. Uma dessas missões foi
+                o primeiro ônibus espacial, que foi lançado em 1981. No caso das naves Challenger(1986)
+                e Columbia(2003), que ocassionaram a morte de 14 astronauta.
+
+
+                <h3 id="titulo03">Estação espacial Internacional</h3>
+                A Estação Espacial Internacional (EEI), concluída em 2011, representa um laboratório espacial que
+                realiza uma variedade de pesquisas. Esta instalação, orbitando a Terra, é reconhecida como
+                o maior satélite artificial já construído.
+
+                </p>
+
+            </article>
+            <article class="card">
+                <h2 id="titulo04">Confira as agências espaciais</h2>
+                <p>
+                    Conforme informações disponíveis na Wikipedia, que teve a
+                    página editada no dia 12/08/2023, as cinco principais
+                    agências espaciais do mundo são distinguidas pelo volume de financiamento
+                    anual alocado a seus programas espaciais. Segue a baixo:
+                </p>
+
+                <p>
+                <h5>NASA (Administração Nacional de Aeronáutica e Espaço):</h5>
+
+                Orçamento: Aproximadamente $16 bilhões de dólares anualmente.
+                País: Estados Unidos.
+                <br>
+                <br>
+                <h5>ESA (Agência Espacial Europeia):</h5>
+
+                Orçamento: Cerca de $3.8 bilhões de dólares por ano.
+                Localização: Europa (cooperação entre vários países europeus).
+                <br>
+                <br>
+                <h5>CNES (Centre National d'Études Spatiales - Agência Espacial Francesa):</h5>
+
+                Orçamento: Aproximadamente $2.2 bilhões de dólares anualmente.
+                País: França.
+                <br>
+                <br>
+                <h6>JAXA (Japan Aerospace Exploration Agency - Agência de Exploração Aeroespacial do Japão):</h6>
+
+                Orçamento: Por volta de $2.0 bilhões de dólares por ano.
+                País: Japão.
+                <br>
+                <br>
+                <h5>RKA (Roscosmos - Agência Espacial Federal Russa):</h5>
+
+                Orçamento: Aproximadamente $1.3 bilhões de dólares anualmente.
+                País: Rússia.
+                <br>
+                <br>
+                Essas cifras expressivas evidenciam o substancial comprometimento financeiro de cada agência com
+                seus respectivos programas espaciais, refletindo o alto investimento e interesse em pesquisas,
+                exploração e avanços tecnológicos no campo da exploração espacial.
+                </p>
+
+            </article>
+            <article class="card">
+                <h3 id="titulo05">Conclusão</h3>
+                <p>
+                    A NASA, nascida no auge da Guerra Fria em 1958, surge como uma resposta direta à corrida
+                    espacial entre os Estados Unidos e a União Soviética, com o objetivo primordial de
+                    explorar o cosmos e desenvolver tecnologias inovadoras.
+                    <br>
+                    <br>
+                    A criação da Estação Espacial Internacional (EEI) em 2011 marcou um marco significativo, oferecendo
+                    um laboratório orbital
+                    para uma ampla gama de estudos científicos. Este colossal satélite artificial em órbita terrestre
+                    representa uma colaboração
+                    internacional notável, permitindo pesquisas diversificadas em condições de microgravidade.
+                    <br>
+                    <br>
+                    É relevante observar também que as principais agências espaciais do mundo, tais como NASA, ESA,
+                    CNES, JAXA e RKA,
+                    são diferenciadas pelo financiamento substancial que recebem anualmente para conduzir suas
+                    ambiciosas explorações
+                    espaciais, conforme detalhado nas informações atualizadas disponíveis na Wikipedia em 12/08/2023.
+                    Esses investimentos
+                    evidenciam o comprometimento e a importância atribuída à expansão do conhecimento e das fronteiras
+                    da exploração espacial.
+                </p>
+            </article>
+
+
+
+        </section>
+        <aside>
+            <article class="card">
+                <h3>Tópicos</h3>
+                <ul id="lista-tópicos">
+                    <li>
+                        <a href="#titulo01">&#187; Como surgiu</a>
+                    </li>
+                    <li>
+                        <a href="#titulo02">&#187; Missões</a>
+                    </li>
+                    <li>
+                        <a href="#titulo03">&#187; Estação Internacional</a>
+                    </li>
+                    <li>
+                        <a href="#titulo04">&#187; Orçamento das agências espaciais</a>
+                    </li>
+                    <li>
+                        <a href="#titulo05">&#187; Conclusão</a>
+                    </li>
+                </ul>
+            </article>
+
+        </aside>
+        <a id="link-topo" href="#">&#9650;</a>
+    </div>
+    <footer>
+        <dl>
+            <dt>Insta</dt>
+            <dd>@jean_aco</dd>
+        </dl>
+
+        <p>Projeto NASA</p>
+    </footer>
+    </section>
+</body>
+
+</html>

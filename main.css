@@ -1,0 +1,113 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: rgba(226, 224, 224, 0.938);
+  color: rgb(0, 0, 0);
+}
+
+header {
+  text-align: center;
+  background-color: rgba(29, 60, 95, 0.575);
+  padding: 30px;
+}
+
+header h1 {
+  font-size: 50px;
+  color: rgb(235, 234, 234);
+
+}
+
+nav ul {
+  list-style: none;
+  background-color: rgb(50, 60, 95);
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 16px;
+  display: block;
+}
+
+nav li {
+  float: left;
+}
+
+nav a:hover {
+  background-color: white;
+  color: rgb(147, 128, 228);
+}
+
+img {
+  width: 100%;
+}
+
+.row {
+  padding: 0 20px;
+  display: table;
+
+}
+
+section {
+  float: left;
+  width: 75%;
+}
+
+aside {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+
+.card {
+  background-color: rgb(209, 203, 203);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+footer {
+  padding: 20px;
+  background-color: rgba(29, 60, 95, 0.575);
+  color: white;
+  margin-top: 20px;
+  display: table;
+  width: 97%;
+}
+
+footer dl,
+footer p {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+footer dt {
+  font-weight: bold;
+}
+
+footer dd {
+  margin-left: 0;
+}
+
+footer p {
+  text-align: right;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+@media screen and (max-width: 768px) {
+
+  section,
+  aside {
+    width: 100%;
+    padding: 0%;
+  }
+
+  footer p {
+    display: none;
+  }
+
+}
